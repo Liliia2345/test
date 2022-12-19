@@ -1,0 +1,61 @@
+body {
+  background-color: #E6E2C3;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #1C315E;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #227C70;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: #62B6B7;
+  transition: 0.3s;
+}
+
+form {
+  padding: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.text-primary {
+  color: #1C315E;
+  }
+
+form button {
+  width: 30%;
+  padding: 5px;
+  background: #88A47C;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  transition all: 0.2s;
+}
+
+form button :hover {
+  background: #97DECE;
+}
+
+form button: :active {
+  box-shadow: inset 3px 2px 15px -5px #252525;
+}
